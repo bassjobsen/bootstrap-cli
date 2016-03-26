@@ -7,7 +7,7 @@ This is the command-line interface for [Bootstrap 4](http://v4-alpha.getbootstra
 You'll need the following software installed to get started.
 
   * [Node.js](http://nodejs.org) 0.12+: Use the installer provided on the NodeJS website.
-    * With Node installed, run `[sudo] npm install -g gulp bower`.
+    * With Node installed, run `[sudo] npm install -g grunt bower`.
   * [Git](http://git-scm.com/downloads): Use the installer for your OS.
     * Windows users can also try [Git for Windows](http://git-for-windows.github.io/).
 
@@ -91,5 +91,5 @@ Add a command name at the end to learn how a specific command works.
 ```bash
 bootstrap help new
 ```
-## Credit
+## Credits
 Inspired on [Foundation CLI](https://github.com/zurb/foundation-cli) 
