@@ -7,13 +7,17 @@ var bootstrap = require('../lib');
 
 // Options that can be passed to commands
 var options = {
-  "directory": String
+  "directory": String,
+  "repo": String,
+  "template": String
 }
 
 // Shorthands for the above commands
 var shorthands = {
   "v": "--version",
-  "d": "--directory"
+  "d": "--directory",
+  "r": "--repo",
+  "t": "--template"
 }
 
 var parsed = nopt(options, shorthands);

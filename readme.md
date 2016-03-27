@@ -39,11 +39,17 @@ bootstrap -v
 
 ### New
 
-Starts the setup process for a new Bootstrap project. The CLI will ask you which framework you want to use and a folder name for the project.
+Starts the setup process for a new Bootstrap project. The CLI will ask you which template you want to use and a folder name for the project.
 
 ```bash
 bootstrap new
 ```
+## Create and use your own templates:
+
+```bash
+bootstrap new --repo https://github.com/username/template-name.git
+```
+Or create a PR to add your templates to the `bootstrap-cli/lib/util/templates.js` file.
 
 ### Watch
 
