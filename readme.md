@@ -11,6 +11,8 @@ You'll need the following software installed to get started.
   * [Git](http://git-scm.com/downloads): Use the installer for your OS.
     * Windows users can also try [Git for Windows](http://git-for-windows.github.io/).
 
+Some projects require Gulp instead of Grunt, `[sudo] npm install -g gulp` to install Gulp.
+
 ## Installing
 
 The Bootstrap CLI is installed through npm.
